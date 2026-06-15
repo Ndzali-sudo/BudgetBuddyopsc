@@ -15,4 +15,5 @@ data class Expense(
     val endTime: String,
     val description: String,
     val category: String
+    val receiptPath: String?
 )

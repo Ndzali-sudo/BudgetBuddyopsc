@@ -52,5 +52,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Receipt Image"/>
+
+        <ImageView
+            android:id="@+id/receiptImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"/>
+
     </LinearLayout>
 </ScrollView>

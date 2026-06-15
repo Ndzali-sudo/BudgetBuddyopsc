@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Budgetbuddyopsc">
         <activity
+            android:name=".ReminderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BadgeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BudgetgoalActivity"
+            android:exported="false" />
+        <activity
             android:name=".GraphActivity"
             android:exported="false" />
         <activity

@@ -23,6 +23,45 @@ class DashboardActivity : AppCompatActivity() {
         viewBtn.setOnClickListener {
             val intent = Intent(this, ViewExpensesActivity::class.java)
             startActivity(intent)
-        }
-    }
-}
+
+            val budgetGoalBtn =
+                findViewById<Button>(R.id.budgetGoalBtn)
+
+            budgetGoalBtn.setOnClickListener {
+
+                startActivity(
+                    Intent(
+                        this,
+                        BudgetGoalActivity::class.java)
+
+                        val progressBtn =
+                            findViewById<Button>(R.id.progressBtn)
+
+                            progressBtn.setOnClickListener {
+
+                        startActivity(
+                            Intent(
+                                this,
+                                ProgressActivity::class.java)
+
+                            val badgeBtn = findViewById<Button>(R.id.badgeBtn)
+
+                                badgeBtn.setOnClickListener {
+                                    startActivity(
+                                        Intent(
+                                            this,
+                                            BadgeActivity::class.java)
+
+                                        val reminderBtn = findViewById<Button>(R.id.reminderBtn)
+
+                                    reminderBtn.setOnClickListener {
+                                        startActivity(
+                                            Intent(
+                                                this,
+                                                ReminderActivity::class.java
+                                            )
+                                        )
+                                    }
+
+
+

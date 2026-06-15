@@ -10,5 +10,28 @@
         android:text="Add Expense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/budgetGoalBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Budget Goals"/>
+
+    <Button
+        android:id="@+id/progressBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Progress"/>
+
+    <Button
+        android:id="@+id/badgeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Achievements"/>
+
+    <Button
+        android:id="@+id/reminderBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Reminder"/>
 
 </LinearLayout>
